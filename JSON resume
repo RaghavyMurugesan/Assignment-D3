@@ -1,0 +1,71 @@
+[{
+    "basics": {
+        "name": "Raghavy MN",
+        "phone" : "+91-123456789",
+        "email": "name.@gmail.com",
+        "location":{
+            "address": "5, ATG Nagar,Bharathi Nagar Extension",
+            "city":"Katpadi",
+            "district":"Vellore",
+            "state": "Tamil Nadu",
+            "Pincode": 632007}
+    },
+}
+]
+
+[{
+    "work experience-1" :{
+        "company":"Rising Stars Mobile India Private LTD(FOXCONN)",
+        "place": "Tada, Andhra Pradesh",
+        "Designation": "Junior Engineer"
+    },
+
+    
+    "work experience-2" :{
+        "company":"Vishay Precision Transducers India Private LTD",
+        "place": "Sriperumbatur, Chennai",
+        "Designation": "Government Apprentice"
+    }
+}]
+
+[{
+    "education qualification 1": {
+        "course": "B.E (Electronics and Communication Engineering)",
+        "University/Board" : "Anna University",
+        "institute": "Mookambigai College Of Engineering",
+        "year of passing":2017,
+        "percentage/Cgpa":68.4
+    },
+
+    "education qualification 2":{
+        "course": "Higher Secondary",
+        "University/Board" : "State Board",
+        "institute": "Duthie Girls Higher Secondary School",
+        "year of passing": 2013,
+        "percentage/Cgpa":79.8
+    },
+    "education qualification 3":{
+    "course": "SSLC",
+        "University/Board" : "Matric Board",
+        "institute": "Sree Narayana Guru Matric Higher Secondary School",
+        "year of passing": 2011,
+        "percentage/Cgpa":87.4
+    }
+}
+]
+{
+    hobbies =["Listening music", "Gardening", "Photography"],
+
+{
+    
+        "Personal Profile" :{
+            "Name":"Raghavy",
+            "Father's Name": "Murugesan A",
+            "Date of Birth":"30.09.1995",
+            "Gender": "Female",
+            "Marital Status": "Single",
+            "Languages Known":["English", "Tamil"]
+
+        }
+    }
+}
