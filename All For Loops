@@ -1,0 +1,84 @@
+1.	For the given JSON iterate over all for loops (for, for in, for of, for Each)
+JSON
+let person = [
+    {
+      "name": "Ram",
+      "id": 1,
+      "place": "Chennai",
+      "experience": 5
+    },
+    {
+        "name": "Ravi",
+        "id": 2,
+        "place": "Coimbatore",
+        "experience": 2
+    },
+    {
+        "name": "Sneha",
+        "id": 3,
+        "place": "Vellore",
+        "experience": 3
+    },
+    {
+        "name": "Rekha",
+        "id": 4,
+        "place": "Madurai",
+        "experience": 4
+    },
+    {
+        "name": "Kumar",
+        "id": 5 ,
+        "place": "Trichy",
+        "experience": 2.5
+    }
+]
+
+For Loop:
+for(var i=0; i<person.length; i++){
+    console.log(person[i])
+}
+
+Output:
+{ name: 'Ram', id: 1, place: 'Chennai', experience: 5 }
+{ name: 'Ravi', id: 2, place: 'Coimbatore', experience: 2 }
+{ name: 'Sneha', id: 3, place: 'Vellore', experience: 3 }
+{ name: 'Rekha', id: 4, place: 'Madurai', experience: 4 }
+{ name: 'Kumar', id: 5, place: 'Trichy', experience: 2.5 }
+-------------------------------------------------------------------------------------------------
+For In Loop:
+for (var i in person){
+    console.log(person[i])
+}
+
+Output:
+{ name: 'Ram', id: 1, place: 'Chennai', experience: 5 }
+{ name: 'Ravi', id: 2, place: 'Coimbatore', experience: 2 }
+{ name: 'Sneha', id: 3, place: 'Vellore', experience: 3 }
+{ name: 'Rekha', id: 4, place: 'Madurai', experience: 4 }
+{ name: 'Kumar', id: 5, place: 'Trichy', experience: 2.5 }
+--------------------------------------------------------------------------------------------------
+For Of Loop:
+for(let i of person){
+    console.log(i)
+}
+
+Output:
+{ name: 'Ram', id: 1, place: 'Chennai', experience: 5 }
+{ name: 'Ravi', id: 2, place: 'Coimbatore', experience: 2 }
+{ name: 'Sneha', id: 3, place: 'Vellore', experience: 3 }
+{ name: 'Rekha', id: 4, place: 'Madurai', experience: 4 }
+{ name: 'Kumar', id: 5, place: 'Trichy', experience: 2.5 }
+-------------------------------------------------------------------------------------------------
+For Each Loop:
+person.forEach(function(per){
+    console.log(per)}
+)
+
+Output:
+{ name: 'Ram', id: 1, place: 'Chennai', experience: 5 }
+{ name: 'Ravi', id: 2, place: 'Coimbatore', experience: 2 }
+{ name: 'Sneha', id: 3, place: 'Vellore', experience: 3 }
+{ name: 'Rekha', id: 4, place: 'Madurai', experience: 4 }
+{ name: 'Kumar', id: 5, place: 'Trichy', experience: 2.5 }
+
+--------------------------------------------------------------------------------------------------
